@@ -1,0 +1,18 @@
+body {
+  background: url("Background.jpg") center center fixed;
+  background-size: cover;
+  size-adjust: 100%;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+.btn {
+  background-color: orange;
+  border: 5px solid orange;
+  /* box-align: 50%; */
+}
