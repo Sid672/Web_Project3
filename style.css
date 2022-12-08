@@ -4,6 +4,10 @@ body {
   size-adjust: 100%;
 }
 
+.container-sm {
+  align-content: center;
+}
+
 h1 {
   text-transform: uppercase;
   color: white;
@@ -14,5 +18,9 @@ h1 {
 .btn {
   background-color: orange;
   border: 5px solid orange;
-  /* box-align: 50%; */
+}
+
+.btn:hover {
+  background-color: darkorange;
+  border-color: darkorange;
 }
