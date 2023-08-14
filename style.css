@@ -1,26 +1,26 @@
 body {
-  background: url("Background.jpg") center center fixed;
-  background-size: cover;
-  size-adjust: 100%;
+  background-image: url("Images/Gym_background.jpg");
 }
 
-.container-sm {
-  align-content: center;
+.d-block {
+  padding: 30px;
+  height: 400px;
+  width: 400px;
 }
 
-h1 {
-  text-transform: uppercase;
-  color: white;
+.d-block:hover {
+  /* border: 2px solid #3498db; */
+  transform: scale(1.1);
+}
+
+.Footer {
+  background-color: #f8f9fa;
+  padding: 50px;
+}
+
+a {
   font-family: sans-serif;
-  font-size: 1.5rem;
-}
-
-.btn {
-  background-color: orange;
-  border: 5px solid orange;
-}
-
-.btn:hover {
-  background-color: darkorange;
-  border-color: darkorange;
+  font-size: medium;
+  text-decoration: none;
+  padding: 10px;
 }
